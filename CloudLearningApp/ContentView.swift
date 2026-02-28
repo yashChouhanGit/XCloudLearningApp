@@ -16,7 +16,7 @@ struct ContentView: View {
                 .font(.largeTitle)
             
             Button("Increment") {
-                count += 1
+                count += 2
             }
             .buttonStyle(.borderedProminent)
             .accessibilityIdentifier("incrementButton") // We will use this for UI Testing later!
